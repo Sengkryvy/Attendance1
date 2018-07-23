@@ -1,4 +1,4 @@
-package com.example.attendance;
+package com.example.attendance.Fragment;
 
 
 import android.Manifest;
@@ -18,6 +18,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.attendance.View.Main;
+import com.example.attendance.R;
 import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.barcode.Barcode;
@@ -52,11 +54,8 @@ public class QRFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_qr, container, false);
 
-        main = new Main();
         screenHeight = Main.screenHeight;
         screenWidth = Main.screenWidth;
-        Log.i("TAG", "W = "+screenWidth);
-        Log.i("TAG", "H = " + screenHeight);
 
         surfaceView = (SurfaceView)view.findViewById(R.id.camerapreview);
         textView = (TextView)view.findViewById(R.id.textView);

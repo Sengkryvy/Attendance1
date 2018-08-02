@@ -88,10 +88,6 @@
                         android:text="15:10-17:00"
                         android:textSize="16dp" />
                 </TableRow>
-
-
-
-
             </TableLayout>
         </LinearLayout>
     </ScrollView>

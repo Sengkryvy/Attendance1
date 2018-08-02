@@ -42,14 +42,14 @@ public class ScheduleFragment extends Fragment {
         getcalendar=Calendar.getInstance();
         setDate= DateFormat.getDateInstance().format(getcalendar.getTime());
 
-        Date.setText(setDate + "");
+        Date.setText(setDate);
 
 
         calendar.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
                 getDate= year+"/"+(month+1)+"/"+dayOfMonth;
-                Date.setText(getDate + "");
+                Date.setText(getDate);
             }
         });
         return view;

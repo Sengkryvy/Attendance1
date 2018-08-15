@@ -25,34 +25,33 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <Button
+            android:id="@+id/algo"
+            android:layout_width="246dp"
+            android:layout_height="65dp"
+            android:background="@drawable/button_style"
+            android:text="Algorithm" />
 
         <Button
-            android:id="@+id/algoBtn"
-            android:layout_width="309dp"
-            android:layout_height="66dp"
+            android:id="@+id/logic"
+            android:layout_width="246dp"
+            android:layout_height="65dp"
             android:background="@drawable/button_style"
-            android:text="algorithm" />
-
+            android:text="logic" />
         <Button
-            android:id="@+id/LogicBtn"
-            android:layout_width="308dp"
-            android:layout_height="66dp"
+            android:layout_width="246dp"
+            android:layout_height="65dp"
             android:background="@drawable/button_style"
-            android:text="Logic" />
-
+            android:text="Database"
+            android:id="@+id/database"/>
         <Button
-            android:id="@+id/databaseBtn"
-            android:layout_width="306dp"
-            android:layout_height="67dp"
+            android:layout_width="246dp"
+            android:layout_height="65dp"
             android:background="@drawable/button_style"
-            android:text="database" />
+            android:text="C programming"
+            android:id="@+id/proC"/>
 
-        <Button
-            android:id="@+id/CprogramBtn"
-            android:layout_width="305dp"
-            android:layout_height="69dp"
-            android:background="@drawable/button_style"
-            android:text="C programming" />
+
     </LinearLayout>
 
 </FrameLayout>

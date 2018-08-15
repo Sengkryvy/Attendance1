@@ -2,9 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.attendance">
 
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-feature android:name="android.hardware.camera" android:required="true"/>
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -23,13 +28,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".View.Home"
+        <activity
+            android:name=".View.Home"
             android:label="@string/home">
+
         </activity>
-        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES"
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
             android:value="barcode">
 
         </meta-data>
+
+        <activity
+            android:name=".View.SignUp"
+            android:theme="@style/Tittle">
+
+        </activity>
+        <activity
+            android:name=".List_of_lessons.Algorithm"
+            android:label="Algorithm"
+            android:parentActivityName=".View.Home">
+        </activity>
+        <activity
+            android:name=".List_of_lessons.Logic"
+            android:parentActivityName=".View.Home"
+            android:label="Logic">
+        </activity>
     </application>
 
 </manifest>

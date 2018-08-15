@@ -120,6 +120,7 @@ public class QRFragment extends Fragment {
                             vibrator.vibrate(1000);
                             textView.setText(qrCodes.valueAt(0).displayValue);
 
+
                         }
                     });
                 }

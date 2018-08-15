@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "264565578083",
+    "firebase_url": "https://studentattendace.firebaseio.com",
+    "project_id": "studentattendace",
+    "storage_bucket": "studentattendace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264565578083:android:22dc89fdc07de644",
+        "android_client_info": {
+          "package_name": "com.example.attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264565578083-a66laqva4sc50eveprphju0775aqqki6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD077WR_LlIwI_WVNiearkPaQJ0nNfOwSw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
